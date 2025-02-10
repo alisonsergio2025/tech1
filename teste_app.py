@@ -1,4 +1,12 @@
 import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import statsmodels.api as sm
+import xgboost as xgb
+import yfinance as yf
+import pmdarima as pm
+from prophet import Prophet
 
 st.write("teste")
 
