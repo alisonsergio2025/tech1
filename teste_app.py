@@ -1,5 +1,10 @@
 import streamlit as st
-import matplotlib.pyplot as plt
+import warnings
+from pandas.errors import SettingWithCopyWarning
+from home import HomePage
+from model import ModelPage
+from history import HistoryPage
+from forecast_class import Forecast
 
 
 st.write("teste")
